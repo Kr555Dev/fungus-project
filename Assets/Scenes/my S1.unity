@@ -1428,6 +1428,20 @@ GameObject:
   - component: {fileID: 1321472524}
   - component: {fileID: 1321472517}
   - component: {fileID: 1321472516}
+  - component: {fileID: 1321472545}
+  - component: {fileID: 1321472542}
+  - component: {fileID: 1321472541}
+  - component: {fileID: 1321472540}
+  - component: {fileID: 1321472539}
+  - component: {fileID: 1321472538}
+  - component: {fileID: 1321472537}
+  - component: {fileID: 1321472546}
+  - component: {fileID: 1321472536}
+  - component: {fileID: 1321472544}
+  - component: {fileID: 1321472543}
+  - component: {fileID: 1321472535}
+  - component: {fileID: 1321472547}
+  - component: {fileID: 1321472548}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1460,9 +1474,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1321472510}
+  - {fileID: 1321472393}
   selectedCommands:
-  - {fileID: 1321472516}
+  - {fileID: 1321472511}
   variables: []
   description: 
   stepPause: 0
@@ -3974,8 +3988,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 379.89716
-    y: 37.877518
+    x: 378.4686
+    y: 36.448948
     width: 237.42851
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6722,18 +6736,32 @@ MonoBehaviour:
   - {fileID: 1321472530}
   - {fileID: 1321472529}
   - {fileID: 1321472528}
-  - {fileID: 1321472527}
+  - {fileID: 1321472546}
   - {fileID: 1321472526}
-  - {fileID: 1321472525}
+  - {fileID: 1321472545}
   - {fileID: 1321472524}
   - {fileID: 1321472523}
-  - {fileID: 1321472522}
+  - {fileID: 1321472544}
   - {fileID: 1321472521}
   - {fileID: 1321472520}
-  - {fileID: 1321472519}
+  - {fileID: 1321472543}
   - {fileID: 1321472516}
   - {fileID: 1321472518}
   - {fileID: 1321472517}
+  - {fileID: 1321472525}
+  - {fileID: 1321472542}
+  - {fileID: 1321472541}
+  - {fileID: 1321472540}
+  - {fileID: 1321472539}
+  - {fileID: 1321472538}
+  - {fileID: 1321472537}
+  - {fileID: 1321472527}
+  - {fileID: 1321472536}
+  - {fileID: 1321472522}
+  - {fileID: 1321472519}
+  - {fileID: 1321472535}
+  - {fileID: 1321472547}
+  - {fileID: 1321472548}
   suppressAllAutoSelections: 0
 --- !u!114 &1321472511
 MonoBehaviour:
@@ -6749,7 +6777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 294
   indentLevel: 0
-  text: Yet deny being the murderer
+  text: Still deny being the murderer
   description: 
   targetBlock: {fileID: 1321472510}
   hideIfVisited: 0
@@ -6955,7 +6983,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 315
   indentLevel: 0
-  storyText: We need to bring her in for questioning...
+  storyText: I know...
   description: 
   character: {fileID: 821063205}
   portrait: {fileID: 21300000, guid: a38e951c5d903dd47949f3f302f5c765, type: 3}
@@ -7036,7 +7064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 312
   indentLevel: 0
-  storyText: Smith, look at this
+  storyText: I can't believe we missed this evidence the first time we were here
   description: 
   character: {fileID: 143537400}
   portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
@@ -7123,8 +7151,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 307
   indentLevel: 0
-  storyText: They looked like a normal pair of gloves, but when she looked at them
-    under a UV light, she saw traces of blood on them
+  storyText: When Detective Jane showed Sarah the gloves with the blood on them,
+    she broke down and confessed...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7178,8 +7206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 303
   indentLevel: 0
-  storyText: As they were about to leave, Jane noticed a pair of gloves sitting on
-    the kitchen counter
+  storyText: Jane and Smith arrested Sarah and took her into custody
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7388,6 +7415,355 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 4
   rotTweenType: 4
+--- !u!114 &1321472535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 330
+  indentLevel: 0
+  storyText: But at least we got the right person in the end !
+  description: 
+  character: {fileID: 821063205}
+  portrait: {fileID: 21300000, guid: a38e951c5d903dd47949f3f302f5c765, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1321472536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 327
+  indentLevel: 0
+  storyText: ' As they were leaving the house, Jane turned to Smith'
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1321472537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 325
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 821063205}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a38e951c5d903dd47949f3f302f5c765, type: 3}
+  offset: 0
+  fromPosition: {fileID: 1281092276}
+  toPosition: {fileID: 220968926}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1321472538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 324
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1321472539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 323
+  indentLevel: 0
+  storyText: He was always yelling at me, and I couldn't take it anymore. I just
+    snapped
+  description: 
+  character: {fileID: 2033399877}
+  portrait: {fileID: 21300000, guid: b84737fbd22b9a54d8dcf891fc35ea7b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1321472540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 322
+  indentLevel: 0
+  storyText: He was just so angry all the time
+  description: 
+  character: {fileID: 2033399877}
+  portrait: {fileID: 21300000, guid: b84737fbd22b9a54d8dcf891fc35ea7b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1321472541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 321
+  indentLevel: 0
+  storyText: I didn't mean to kill him
+  description: 
+  character: {fileID: 2033399877}
+  portrait: {fileID: 21300000, guid: b84737fbd22b9a54d8dcf891fc35ea7b, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1321472542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 320
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1321472543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 329
+  indentLevel: 0
+  storyText: We need to bring her in for questioning...
+  description: 
+  character: {fileID: 821063205}
+  portrait: {fileID: 21300000, guid: a38e951c5d903dd47949f3f302f5c765, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1321472544
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 328
+  indentLevel: 0
+  storyText: Smith, look at this
+  description: 
+  character: {fileID: 143537400}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1321472545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 319
+  indentLevel: 0
+  storyText: They looked like a normal pair of gloves, but when she looked at them
+    under a UV light, she saw traces of blood on them
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1321472546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 326
+  indentLevel: 0
+  storyText: As they were about to leave, Jane noticed a pair of gloves sitting on
+    the kitchen counter
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1321472547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 331
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
+--- !u!114 &1321472548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 332
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: credits
+  loadingImage: {fileID: 2800000, guid: 9afee887e9f04bf4d89c822b1d012575, type: 3}
+  sceneNameOLD: 
 --- !u!1 &1358782607
 GameObject:
   m_ObjectHideFlags: 0
