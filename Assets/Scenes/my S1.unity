@@ -244,7 +244,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &143537399
 GameObject:
@@ -279,7 +279,7 @@ MonoBehaviour:
   nameColor: {r: 1, g: 0, b: 0.34602737, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  - {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -296,7 +296,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &220968925
 GameObject:
@@ -456,7 +456,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &448973024
 GameObject:
@@ -517,7 +517,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 987675e05dac9e040ba4839ef8c1e41b, type: 3}
-  m_Color: {r: 0.5568628, g: 0.5568628, b: 0.5568628, a: 1}
+  m_Color: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -540,7 +540,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &513653811
 GameObject:
@@ -572,7 +572,7 @@ Transform:
   m_Children:
   - {fileID: 1546388029}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -656,7 +656,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &671662785
 GameObject:
@@ -703,7 +703,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &821063204
 GameObject:
@@ -756,7 +756,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &967872528
 GameObject:
@@ -840,7 +840,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &988173910
 GameObject:
@@ -885,7 +885,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1074748728
 GameObject:
@@ -1008,7 +1008,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1207116425
 GameObject:
@@ -1397,6 +1397,8 @@ GameObject:
   - component: {fileID: 1321472461}
   - component: {fileID: 1321472458}
   - component: {fileID: 1321472455}
+  - component: {fileID: 1321472488}
+  - component: {fileID: 1321472487}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1420,7 +1422,7 @@ MonoBehaviour:
   scrollPos: {x: 179.66101, y: 139.38129}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 247.5
+  blockViewHeight: 200
   zoom: 0.64000034
   scrollViewRect:
     serializedVersion: 2
@@ -1429,9 +1431,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1321472393}
+  - {fileID: 1321472422}
   selectedCommands:
-  - {fileID: 1321472455}
+  - {fileID: 1321472414}
   variables: []
   description: 
   stepPause: 0
@@ -1569,7 +1571,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1321472222
 MonoBehaviour:
@@ -1848,7 +1850,7 @@ MonoBehaviour:
   storyText: That's what we need to figure out
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -1961,7 +1963,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   offset: 0
   fromPosition: {fileID: 65961002}
   toPosition: {fileID: 1074748729}
@@ -2068,7 +2070,7 @@ MonoBehaviour:
   storyText: Okay, so let's go through what we know so far
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2096,7 +2098,7 @@ MonoBehaviour:
     a suspect quickly
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2123,7 +2125,7 @@ MonoBehaviour:
   storyText: ' And then there''s his business partner, Jack'
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2150,7 +2152,7 @@ MonoBehaviour:
   storyText: She claimed he was stalking her, but he denied it
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2177,7 +2179,7 @@ MonoBehaviour:
   storyText: ' John''s ex-girlfriend, Sarah, had a restraining order against him'
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2204,7 +2206,7 @@ MonoBehaviour:
   storyText: We have a couple of leads, though
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2406,7 +2408,7 @@ MonoBehaviour:
   storyText: What do you think?"
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2452,7 +2454,7 @@ MonoBehaviour:
     and get some useful information out of him
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -2540,7 +2542,7 @@ MonoBehaviour:
     death...
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3009,7 +3011,7 @@ MonoBehaviour:
   storyText: I'm not sure,
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3037,7 +3039,7 @@ MonoBehaviour:
     death
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3064,7 +3066,7 @@ MonoBehaviour:
   storyText: We're investigating John's death
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3092,7 +3094,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   offset: 0
   fromPosition: {fileID: 65961002}
   toPosition: {fileID: 1074748729}
@@ -3451,7 +3453,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1074748729}
@@ -3511,7 +3513,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 65961002}
@@ -3691,7 +3693,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 65961002}
   toPosition: {fileID: 1074748729}
@@ -3750,7 +3752,7 @@ MonoBehaviour:
   storyText: Do you have any information that might help us?
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3835,7 +3837,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1393699740}
@@ -3865,7 +3867,7 @@ MonoBehaviour:
     embezzling, and if so, who else knew about it.
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3892,7 +3894,7 @@ MonoBehaviour:
   storyText: Thank you for your honesty, Jack
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4006,6 +4008,8 @@ MonoBehaviour:
   - {fileID: 1321472457}
   - {fileID: 1321472456}
   - {fileID: 1321472455}
+  - {fileID: 1321472488}
+  - {fileID: 1321472487}
   suppressAllAutoSelections: 0
 --- !u!114 &1321472394
 MonoBehaviour:
@@ -4119,7 +4123,7 @@ MonoBehaviour:
   storyText: Are you sure? Did John ever mention anyone who might want to hurt him?
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4203,7 +4207,7 @@ MonoBehaviour:
   storyText: Hello, we're here to ask you about John's death
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4231,7 +4235,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   offset: 0
   fromPosition: {fileID: 65961002}
   toPosition: {fileID: 1074748729}
@@ -4505,7 +4509,7 @@ MonoBehaviour:
   storyText: Are you sure? Did John ever mention anyone who might want to hurt him?
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4589,7 +4593,7 @@ MonoBehaviour:
   storyText: Hello, we're here to ask you about John's death
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4617,7 +4621,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   offset: 0
   fromPosition: {fileID: 65961002}
   toPosition: {fileID: 1074748729}
@@ -4842,7 +4846,7 @@ MonoBehaviour:
   storyText: What should we do next Detective Smith?
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4900,7 +4904,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   offset: 0
   fromPosition: {fileID: 65961002}
   toPosition: {fileID: 1074748729}
@@ -5104,7 +5108,7 @@ MonoBehaviour:
   storyText: You didn't plan on it, but you still did it
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5322,7 +5326,7 @@ MonoBehaviour:
   storyText: ' If we can prove that, we might have a stronger case against Jack'
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5349,7 +5353,7 @@ MonoBehaviour:
   storyText: Let's investigate the embezzlement
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5437,7 +5441,7 @@ MonoBehaviour:
     knew about it
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5615,7 +5619,7 @@ MonoBehaviour:
   rotTweenType: 4
 --- !u!114 &1321472455
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5642,7 +5646,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472456
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5669,7 +5673,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472457
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5696,7 +5700,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472458
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5723,7 +5727,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472459
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5750,7 +5754,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472460
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5777,7 +5781,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472461
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5792,7 +5796,7 @@ MonoBehaviour:
   storyText: You need to face the consequences of your actions
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5804,7 +5808,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472462
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5834,7 +5838,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1321472463
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5864,7 +5868,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1321472464
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5891,7 +5895,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472465
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5918,7 +5922,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472466
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5945,7 +5949,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472467
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5972,7 +5976,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472468
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6002,7 +6006,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1321472469
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6032,7 +6036,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1321472470
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6059,7 +6063,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472471
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6074,7 +6078,7 @@ MonoBehaviour:
   storyText: You need to confess and take responsibility for your actions
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6086,7 +6090,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472472
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6101,7 +6105,7 @@ MonoBehaviour:
   storyText: Jack, we know you did it
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6113,7 +6117,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472473
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6143,7 +6147,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1321472474
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6170,7 +6174,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472475
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6197,7 +6201,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472476
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6225,7 +6229,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472477
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6255,7 +6259,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1321472478
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6285,7 +6289,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1321472479
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6303,7 +6307,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1321472480
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6331,7 +6335,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472481
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6358,7 +6362,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472482
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6374,7 +6378,7 @@ MonoBehaviour:
     records of your company..
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6386,7 +6390,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472483
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6413,7 +6417,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472484
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6428,7 +6432,7 @@ MonoBehaviour:
   storyText: Jack, tell us everything about John's embezzlement
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6440,7 +6444,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472485
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6470,7 +6474,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1321472486
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -6496,6 +6500,43 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1321472487
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 270
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: credits
+  loadingImage: {fileID: 2800000, guid: 9afee887e9f04bf4d89c822b1d012575, type: 3}
+  sceneNameOLD: 
+--- !u!114 &1321472488
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3315ad2ebb85443909a1203d56d9344e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 269
+  indentLevel: 0
+  _duration:
+    floatRef: {fileID: 0}
+    floatVal: 1
+  durationOLD: 0
 --- !u!1 &1358782607
 GameObject:
   m_ObjectHideFlags: 0
@@ -6541,7 +6582,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1393699739
 GameObject:
@@ -6797,7 +6838,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1880086681
 GameObject:
@@ -6856,7 +6897,7 @@ Transform:
   m_Children:
   - {fileID: 1207116426}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1910760924
 GameObject:
@@ -6940,7 +6981,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2033399876
 GameObject:
@@ -6992,7 +7033,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2073883750
 GameObject:
@@ -7039,5 +7080,5 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
