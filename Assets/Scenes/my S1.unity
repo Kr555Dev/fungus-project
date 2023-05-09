@@ -1336,6 +1336,11 @@ GameObject:
   - component: {fileID: 1321472408}
   - component: {fileID: 1321472407}
   - component: {fileID: 1321472405}
+  - component: {fileID: 1321472429}
+  - component: {fileID: 1321472427}
+  - component: {fileID: 1321472428}
+  - component: {fileID: 1321472426}
+  - component: {fileID: 1321472425}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -1370,7 +1375,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1321472406}
   selectedCommands:
-  - {fileID: 1321472405}
+  - {fileID: 1321472425}
   variables: []
   description: 
   stepPause: 0
@@ -4197,7 +4202,7 @@ MonoBehaviour:
   indentLevel: 0
   duration: 1
   fadeOut: 1
-  targetView: {fileID: 0}
+  targetView: {fileID: 1144573678}
   waitUntilFinished: 1
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
@@ -4232,6 +4237,11 @@ MonoBehaviour:
   eventHandler: {fileID: 0}
   commandList:
   - {fileID: 1321472405}
+  - {fileID: 1321472429}
+  - {fileID: 1321472428}
+  - {fileID: 1321472427}
+  - {fileID: 1321472426}
+  - {fileID: 1321472425}
   suppressAllAutoSelections: 0
 --- !u!114 &1321472407
 MonoBehaviour:
@@ -4674,6 +4684,142 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 2800000, guid: fb721e2b9f2cf194ca70f453a8d29ff0, type: 3}
   fadeTweenType: 4
+--- !u!114 &1321472425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 210
+  indentLevel: 0
+  targetFlowchart: {fileID: 1321472217}
+  targetBlock: {fileID: 1321472262}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &1321472426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 209
+  indentLevel: 0
+  storyText: I think we should go and investigate Jack. He seems to be closely involved
+    in this case
+  description: 
+  character: {fileID: 821063205}
+  portrait: {fileID: 21300000, guid: a38e951c5d903dd47949f3f302f5c765, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1321472427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 207
+  indentLevel: 0
+  storyText: What should we do next Detective Smith?
+  description: 
+  character: {fileID: 143537400}
+  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1321472428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 208
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 821063205}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a38e951c5d903dd47949f3f302f5c765, type: 3}
+  offset: 0
+  fromPosition: {fileID: 1281092276}
+  toPosition: {fileID: 220968926}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &1321472429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321472216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 206
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 143537400}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  offset: 0
+  fromPosition: {fileID: 65961002}
+  toPosition: {fileID: 1074748729}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &1358782607
 GameObject:
   m_ObjectHideFlags: 0
