@@ -1468,10 +1468,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 31.203024, y: 127.32869}
+  scrollPos: {x: 35.908936, y: 114.38749}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
+  blockViewHeight: 446.8
   zoom: 0.8500001
   scrollViewRect:
     serializedVersion: 2
@@ -1480,9 +1480,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1321472488}
+  - {fileID: 1321472393}
   selectedCommands:
-  - {fileID: 1321472491}
+  - {fileID: 1321472511}
   variables: []
   description: 
   stepPause: 0
@@ -3278,7 +3278,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1663113853}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 1b95c97dbef6f7148b8868e0908ce272, type: 3}
+  portrait: {fileID: 21300000, guid: a4bf65b0860d69b458cb9b281b529f90, type: 3}
   offset: 0
   fromPosition: {fileID: 1281092276}
   toPosition: {fileID: 220968926}
@@ -3395,7 +3395,7 @@ MonoBehaviour:
     the police
   description: 
   character: {fileID: 1663113853}
-  portrait: {fileID: 21300000, guid: 1b95c97dbef6f7148b8868e0908ce272, type: 3}
+  portrait: {fileID: 21300000, guid: a4bf65b0860d69b458cb9b281b529f90, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3422,7 +3422,7 @@ MonoBehaviour:
   storyText: John was embezzling from our company
   description: 
   character: {fileID: 1663113853}
-  portrait: {fileID: 21300000, guid: 1b95c97dbef6f7148b8868e0908ce272, type: 3}
+  portrait: {fileID: 21300000, guid: a4bf65b0860d69b458cb9b281b529f90, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3449,7 +3449,7 @@ MonoBehaviour:
   storyText: But I did have a motive
   description: 
   character: {fileID: 1663113853}
-  portrait: {fileID: 21300000, guid: 1b95c97dbef6f7148b8868e0908ce272, type: 3}
+  portrait: {fileID: 21300000, guid: a4bf65b0860d69b458cb9b281b529f90, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3476,7 +3476,7 @@ MonoBehaviour:
   storyText: I didn't kill him, if that's what you're asking
   description: 
   character: {fileID: 1663113853}
-  portrait: {fileID: 21300000, guid: 1b95c97dbef6f7148b8868e0908ce272, type: 3}
+  portrait: {fileID: 21300000, guid: a4bf65b0860d69b458cb9b281b529f90, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -3534,7 +3534,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1663113853}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 1b95c97dbef6f7148b8868e0908ce272, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 1393699740}
@@ -5120,7 +5120,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1663113853}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 1b95c97dbef6f7148b8868e0908ce272, type: 3}
+  portrait: {fileID: 21300000, guid: a4bf65b0860d69b458cb9b281b529f90, type: 3}
   offset: 0
   fromPosition: {fileID: 1281092276}
   toPosition: {fileID: 220968926}
@@ -5564,7 +5564,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 65961002}
   toPosition: {fileID: 1074748729}
@@ -5732,7 +5732,7 @@ MonoBehaviour:
   storyText: He seemed like his usual self
   description: 
   character: {fileID: 1663113853}
-  portrait: {fileID: 21300000, guid: 1b95c97dbef6f7148b8868e0908ce272, type: 3}
+  portrait: {fileID: 21300000, guid: a4bf65b0860d69b458cb9b281b529f90, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5759,7 +5759,7 @@ MonoBehaviour:
   storyText: No, nothing out of the ordinary
   description: 
   character: {fileID: 1663113853}
-  portrait: {fileID: 21300000, guid: 1b95c97dbef6f7148b8868e0908ce272, type: 3}
+  portrait: {fileID: 21300000, guid: a4bf65b0860d69b458cb9b281b529f90, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5893,7 +5893,7 @@ MonoBehaviour:
     secretive\t"
   description: 
   character: {fileID: 1663113853}
-  portrait: {fileID: 21300000, guid: 1b95c97dbef6f7148b8868e0908ce272, type: 3}
+  portrait: {fileID: 21300000, guid: a4bf65b0860d69b458cb9b281b529f90, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5920,7 +5920,7 @@ MonoBehaviour:
   storyText: I did not know about all this. I promise
   description: 
   character: {fileID: 1663113853}
-  portrait: {fileID: 21300000, guid: 1b95c97dbef6f7148b8868e0908ce272, type: 3}
+  portrait: {fileID: 21300000, guid: a4bf65b0860d69b458cb9b281b529f90, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -5975,7 +5975,7 @@ MonoBehaviour:
   storyText: I have no idea
   description: 
   character: {fileID: 1663113853}
-  portrait: {fileID: 21300000, guid: 1b95c97dbef6f7148b8868e0908ce272, type: 3}
+  portrait: {fileID: 21300000, guid: a4bf65b0860d69b458cb9b281b529f90, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -6030,7 +6030,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 202f1f9056e9f984bb4f53a02aabc232, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 65961002}
   toPosition: {fileID: 1074748729}
