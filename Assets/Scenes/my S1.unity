@@ -8320,7 +8320,7 @@ MonoBehaviour:
   nameColor: {r: 0.24705884, g: 0.14901961, b: 0.098039225, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 1b95c97dbef6f7148b8868e0908ce272, type: 3}
+  - {fileID: 21300000, guid: a4bf65b0860d69b458cb9b281b529f90, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
