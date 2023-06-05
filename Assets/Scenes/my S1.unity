@@ -1468,11 +1468,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 335.90884, y: 8.505146}
+  scrollPos: {x: 151.76872, y: 107.33818}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 200
-  zoom: 0.8500001
+  blockViewHeight: 480.8
+  zoom: 0.76599944
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -1480,9 +1480,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1321472406}
+  - {fileID: 1321472306}
   selectedCommands:
-  - {fileID: 1321472427}
+  - {fileID: 1321472403}
   variables: []
   description: 
   stepPause: 0
@@ -1537,7 +1537,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 53.75084
     y: 140.30962
-    width: 90.47058
+    width: 93.86426
     height: 40
   tint: {r: 0.38458523, g: 0.735849, b: 0.45731148, a: 1}
   useCustomTint: 1
@@ -2702,7 +2702,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 260.1672
     y: 143.54938
-    width: 108.352936
+    width: 114.75201
     height: 40
   tint: {r: 0.8431373, g: 0.32156864, b: 0.32156864, a: 1}
   useCustomTint: 1
@@ -2815,7 +2815,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -104.76053
     y: -1.3909302
-    width: 114.94117
+    width: 122.06272
     height: 40
   tint: {r: 0.7843138, g: 0.29803923, b: 0.29803923, a: 1}
   useCustomTint: 1
@@ -3998,7 +3998,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 378.4686
     y: 36.448948
-    width: 226.94116
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4379,7 +4379,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -132.39972
     y: 223.82999
-    width: 181.7647
+    width: 196.21422
     height: 40
   tint: {r: 0.44868279, g: 0.59849745, b: 0.8584906, a: 1}
   useCustomTint: 1
@@ -4758,7 +4758,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 415.23947
     y: 202.26755
-    width: 214.70586
+    width: 232.76776
     height: 40
   tint: {r: 0.8980393, g: 0.79215693, b: 0, a: 1}
   useCustomTint: 1
@@ -6113,7 +6113,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 705.08026
     y: 37.772896
-    width: 108.352936
+    width: 114.75201
     height: 40
   tint: {r: 0.17358488, g: 0.9280202, b: 1, a: 1}
   useCustomTint: 1
@@ -6195,7 +6195,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 289
   indentLevel: 0
-  storyText: Jane and Smith arrested Sarah and took her into custody
+  storyText: Jane and Smith arrested Jack and took her into custody
   description: 
   character: {fileID: 1663113853}
   portrait: {fileID: 21300000, guid: a4bf65b0860d69b458cb9b281b529f90, type: 3}
@@ -6731,7 +6731,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 722.10474
     y: 203.50826
-    width: 110.23529
+    width: 115.796394
     height: 40
   tint: {r: 0.16470589, g: 0.89019614, b: 0.9568628, a: 1}
   useCustomTint: 1
@@ -7898,7 +7898,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &1321472553
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7925,7 +7925,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1321472554
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
