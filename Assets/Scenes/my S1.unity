@@ -279,7 +279,7 @@ MonoBehaviour:
   nameColor: {r: 1, g: 0, b: 0.34602737, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
+  - {fileID: 21300000, guid: fba66d238c381404fa7fc81ce01a4fdb, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -1468,19 +1468,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 329.92557, y: 162.62968}
+  scrollPos: {x: 863.8709, y: 294.82605}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 480.8
-  zoom: 0.6759995
+  blockViewHeight: 364.8
+  zoom: 0.45999992
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1321472219}
+  selectedCommands:
+  - {fileID: 1321472236}
   variables: []
   description: 
   stepPause: 0
@@ -1535,7 +1537,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 53.75084
     y: 140.30962
-    width: 92.60358
+    width: 91.739136
     height: 40
   tint: {r: 0.38458523, g: 0.735849, b: 0.45731148, a: 1}
   useCustomTint: 1
@@ -2010,7 +2012,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
+  portrait: {fileID: 21300000, guid: fba66d238c381404fa7fc81ce01a4fdb, type: 3}
   offset: 0
   fromPosition: {fileID: 65961002}
   toPosition: {fileID: 1074748729}
@@ -2700,7 +2702,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 260.1672
     y: 143.54938
-    width: 113.905365
+    width: 112.6087
     height: 40
   tint: {r: 0.8431373, g: 0.32156864, b: 0.32156864, a: 1}
   useCustomTint: 1
@@ -2813,7 +2815,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -104.76053
     y: -1.3909302
-    width: 119.82253
+    width: 117.826096
     height: 40
   tint: {r: 0.7843138, g: 0.29803923, b: 0.29803923, a: 1}
   useCustomTint: 1
@@ -3143,7 +3145,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
+  portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 65961002}
   toPosition: {fileID: 1074748729}
@@ -3996,7 +3998,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 378.4686
     y: 36.448948
-    width: 238.1658
+    width: 232.60872
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4159,7 +4161,7 @@ MonoBehaviour:
   storyText: Are you sure? Did John ever mention anyone who might want to hurt him?
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
+  portrait: {fileID: 21300000, guid: fba66d238c381404fa7fc81ce01a4fdb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4243,7 +4245,7 @@ MonoBehaviour:
   storyText: Hello, we're here to ask you about John's death
   description: 
   character: {fileID: 143537400}
-  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
+  portrait: {fileID: 21300000, guid: fba66d238c381404fa7fc81ce01a4fdb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -4271,7 +4273,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 143537400}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: f9b0216b96adce54881cf67d774b7ef3, type: 3}
+  portrait: {fileID: 21300000, guid: fba66d238c381404fa7fc81ce01a4fdb, type: 3}
   offset: 0
   fromPosition: {fileID: 65961002}
   toPosition: {fileID: 1074748729}
@@ -4377,7 +4379,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -132.39972
     y: 223.82999
-    width: 190.82849
+    width: 187.39133
     height: 40
   tint: {r: 0.44868279, g: 0.59849745, b: 0.8584906, a: 1}
   useCustomTint: 1
@@ -4756,7 +4758,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 415.23947
     y: 202.26755
-    width: 226.33148
+    width: 222.17393
     height: 40
   tint: {r: 0.8980393, g: 0.79215693, b: 0, a: 1}
   useCustomTint: 1
@@ -6111,7 +6113,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 705.08026
     y: 37.772896
-    width: 113.905365
+    width: 112.6087
     height: 40
   tint: {r: 0.17358488, g: 0.9280202, b: 1, a: 1}
   useCustomTint: 1
@@ -6729,7 +6731,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 722.10474
     y: 203.50826
-    width: 115.0888
+    width: 114.34783
     height: 40
   tint: {r: 0.16470589, g: 0.89019614, b: 0.9568628, a: 1}
   useCustomTint: 1
